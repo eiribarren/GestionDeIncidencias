@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="config"
+        android:icon="@drawable/ic_build_black_24dp"
+        app:showAsAction="always"
+        android:id="@+id/config"
+        />
+    <item android:id="@+id/musica"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        app:showAsAction="always"
+        android:title="musica"
+        />
+
+</menu>

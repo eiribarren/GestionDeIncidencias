@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327212032100",
+    "firebase_url": "https://gestiondeincidencias-794ff.firebaseio.com",
+    "project_id": "gestiondeincidencias-794ff",
+    "storage_bucket": "gestiondeincidencias-794ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327212032100:android:ee7c50d414703990",
+        "android_client_info": {
+          "package_name": "com.epumer.gestiondeincidencias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327212032100-v4i6o2u3hlgfebia3b42h5nuur721u34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epumer.gestiondeincidencias",
+            "certificate_hash": "a6e0303f3b82f746f22f54d52f3b7ae07e5c7068"
+          }
+        },
+        {
+          "client_id": "327212032100-h9i6rdhqcnnchbb7vupj4a4sbrdcfr6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7ZuYlpGQhvtkt5Js09ktEHOPP0yHog6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327212032100-h9i6rdhqcnnchbb7vupj4a4sbrdcfr6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
