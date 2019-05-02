@@ -176,9 +176,9 @@ public class MainActivity extends AppCompatActivity
 
     public void enviarImagen(Bitmap bitmap, String name) {
         StorageReference storageRef = FirebaseStorage.getInstance().getReference();
-        StorageReference imageRef = storageRef.child( name + ".png");
+        StorageReference imageRef = storageRef.child( name + ".jpg");
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
         byte[] data = baos.toByteArray();
 
         UploadTask uploadTask = imageRef.putBytes(data);
@@ -237,7 +237,7 @@ public class MainActivity extends AppCompatActivity
 
             enviarImagen(bitmap, name);
             AddIncidencia addIncidencia = (AddIncidencia) getSupportFragmentManager().findFragmentByTag("AddIncidencia");
-            addIncidencia.putImage(bitmap, name + ".png");
+            addIncidencia.putImage(bitmap, name + ".jpg");
         }
 
     }
@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity
             StorageReference ref = FirebaseStorage.getInstance().getReference().child(strings[0]);
             localFile = null;
             try {
-                localFile = File.createTempFile(strings[0], "png");
+                localFile = File.createTempFile(strings[0], "jpg");
             } catch (IOException e) {
                 e.printStackTrace();
             }
